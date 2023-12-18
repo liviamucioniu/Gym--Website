@@ -8,9 +8,11 @@ const MainHeader = () => {
             <div className="container main-header-container">
                 {/* LEFT-SIDE */}
                 <div className="main-header-left">
-                    <h4>#100DaysOfWorkOut</h4>
-                    <h1>Join The Legends Of The Fitness World</h1>
-                    <p> Lorem sentium porro esse quos um porro esse quos!</p>
+                    <h1>Every day is a choice.</h1>
+                    <p>
+                        Elevate your wellness journey with top-notch equipment,
+                        expert guidance, and a motivating atmosphere.
+                    </p>
                     <Link to="/plans" className="btn lg">
                         Get Started
                     </Link>
@@ -18,8 +20,9 @@ const MainHeader = () => {
                 {/* RIGHT-SIDE */}
                 <div className="main-header-right">
                     <div className="main-header-circle"></div>
-                    <div className="main-header-image"></div>
-                    <img src={Image} alt="" />
+                    <div className="main-header-image">
+                        <img src={Image} alt="" />
+                    </div>
                 </div>
             </div>
         </header>

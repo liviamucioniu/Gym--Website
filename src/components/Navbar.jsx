@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../images/logo.png";
+import Logo from "../images/logoNewY.png";
 import { links } from "../data";
 import { HiBars3 } from "react-icons/hi2";
 import { MdOutlineClose } from "react-icons/md";

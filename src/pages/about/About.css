@@ -1,0 +1,12 @@
+.about-section-image {
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+
+.about-section-content h1 {
+    margin-top: 3rem;
+}
+
+.about-section-content p {
+    margin-top: 1rem;
+}

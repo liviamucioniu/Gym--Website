@@ -1,7 +1,7 @@
 nav {
     height: 5rem;
     width: 100vw;
-    background: var(--color-primary);
+    background: #f9d92e;
     display: grid;
     place-items: center;
     position: fixed;
@@ -25,7 +25,8 @@ nav {
 }
 
 .logo {
-    width: 7rem;
+    width: 5rem;
+    display: block;
 }
 
 .nav-links {
@@ -39,7 +40,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: var(--color-secondary);
+    color: #588157;
 }
 
 .active-nav {
@@ -51,7 +52,7 @@ nav {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: var(--color-primary);
+    background: #f9d92e;
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
@@ -69,7 +70,7 @@ nav {
     }
 
     .nav-toggle-btn svg {
-        color: var(--color-gray-100);
+        color: #1e2d27;
     }
 
     .nav-links {
@@ -92,7 +93,7 @@ nav {
     }
 
     .nav-links li a {
-        background-color: var(--color-primary);
+        background-color: #f9d92e;
         height: 100%;
         width: 100%;
         display: flex;

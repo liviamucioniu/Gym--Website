@@ -15,7 +15,7 @@ const Programs = () => {
                         return (
                             <Card className="programs-program" key={id}>
                                 <span>{icon}</span>
-                                <h4>{title}</h4>
+                                <h3>{title}</h3>
                                 <small>{info}</small>
                                 <Link to={path} className="btn sm">
                                     Learn more <AiFillCaretRight />

@@ -17,10 +17,7 @@ const Values = () => {
                 {/* values-right -> cards */}
                 <div className="values-right">
                     <SectionHeader icon={<GiCutDiamond />} title="Values" />
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur ipsum dolor sit
-                        amet consectetu .
-                    </p>
+                    <p>Building confidence. Building fitness.</p>
                     <div className="values-wrapper">
                         {values.map(({ id, icon, title, desc }) => {
                             return (
