@@ -15,12 +15,6 @@
     gap: 6rem;
 }
 
-/* .main-header-left h4 {
-    margin-bottom: 1rem;
-    color: var(--color-secondary);
-    font-weight: 400;
-} */
-
 .main-header-left p {
     margin: 1rem 0 3.5rem;
     font-size: 1.1rem;
@@ -66,7 +60,7 @@
 }
 
 .programs-program:hover a {
-    background: #f9d92e;
+    background: var(--color-secondary);
     color: #333d29;
 }
 
@@ -202,7 +196,7 @@
 /* =====FOOTER===== */
 
 footer {
-    background: #f9d92e;
+    background: var(--color-secondary);
     margin-top: 7rem;
     padding-top: 7rem;
     font-size: 0.9rem;

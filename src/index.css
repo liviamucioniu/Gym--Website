@@ -11,15 +11,13 @@
 }
 
 :root {
-    --primary-hue: 210;
     --gray-hue: 240;
-    --color-primary: #588157
-    
-    --color-primary-variant: #588157
-    --color-secondary: #F9D92E
+    --color-primary: #588157;
+
+    --color-secondary: #f9d92e;
     --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
     --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
-    --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
+
     --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
     --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
     --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
@@ -29,27 +27,6 @@
 
     --transition: all 500ms ease;
 }
-
-/* :root {
-    --primary-hue: 210;
-    --gray-hue: 240;
-    --color-primary: hsl(var(--primary-hue), 100%, 50%);
-    --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
-    --color-secondary: #F9D92E;
-    --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
-    --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
-    --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
-    --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
-    --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
-    --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
-
-    --container-width-lg: 80%;
-    --container-width-md: 90%;
-
-    --transition: all 500ms ease;
-}
-
- */
 
 /* GENERAL STYLES */
 
@@ -96,17 +73,16 @@ img {
 }
 
 .btn {
-    /* color: var(--color-gray-100); */
     width: fit-content;
     margin: 0 auto;
     padding: 0.9rem 2rem;
-    background: #588157;
+    background: var(--color-primary);
     border-radius: 1.5rem;
     transition: var(--transition);
 }
 
 .btn:hover {
-    background: #F9D92E;
+    background: var(--color-secondary);
     color: var(--color-gray-600);
 }
 
@@ -122,8 +98,7 @@ img {
 }
 
 .btn.sm:hover {
-    /* background: var(--color-gray-100); */
-    background: #F9D92E;
+    background: var(--color-secondary);
 }
 
 section {
@@ -137,10 +112,10 @@ section {
 }
 
 .section-header span {
-    background: #588157;
+    background: var(--color-primary);
     padding: 0.8rem;
     border-radius: 1rem;
-    color: #F9D92E;
+    color: var(--color-secondary);
     font-size: 1.5rem;
 }
 
@@ -155,13 +130,12 @@ section {
 
 .card:hover {
     background: transparent;
-    /* border-color: var(--color-gray-400); */
 }
 
 .card span {
     width: 3rem;
     height: 3rem;
-    background: #588157;
+    background: var(--color-primary);
     color: var(--color-gray-100);
     font-size: 1.5rem;
     padding: 0.8rem;
@@ -174,8 +148,7 @@ section {
 }
 
 .card:hover span {
-    background: #F9D92E;
-    /* color: var(--color-gray-600); */
+    background: var(--color-secondary);
 }
 
 .card small {
@@ -188,7 +161,6 @@ section {
     margin-top: 5rem;
     height: 20rem;
     overflow: hidden;
-   
 }
 
 .header-container {
