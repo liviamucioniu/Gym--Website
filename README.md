@@ -2,10 +2,10 @@ BigFoot is a dynamic React web application designed for fitness enthusiasts. The
 
 Technologies Used:
 
-React
-HTML
-CSS
-JavaScript
+-React
+-HTML
+-CSS
+-JavaScript
 
 # Getting Started with Create React App
 
