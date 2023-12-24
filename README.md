@@ -7,6 +7,16 @@ Technologies Used:
 -CSS
 -JavaScript
 
+![gym1](https://github.com/liviamucioniu/Gym--Website/assets/130161176/0f0b6f4c-38c1-4976-8a94-875b1323cb53)
+
+
+![gym2](https://github.com/liviamucioniu/Gym--Website/assets/130161176/93e2a022-ff01-4717-9e8f-fb7d91be19ee)
+
+
+
+![gym4](https://github.com/liviamucioniu/Gym--Website/assets/130161176/58199686-824b-424a-819d-d121223c14dd)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
